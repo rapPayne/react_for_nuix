@@ -1,12 +1,11 @@
 # Lab 1: Making the components
 
-In this lab, we'll be creating the baseline components. You'll see screenshots below which are representative of the final product. Yours will look different and they'll be built up over the week. 
+In this lab, we'll be creating the baseline components. You'll see screenshots below which are representative of the final product. Yours can look different and they'll be built up over the week. 
 
-> You do not have to make them "work" nor look like the screenshots. 
+> You do not have to make them "work" nor look exactly like the screenshots. 
 
 Please do not implement the following things. We will be working with them in future labs:
 - Routing
-- Styling or layout of the components. ie. no CSS yet
 - Fetching data
 - State or lifecycle events
 
@@ -27,10 +26,10 @@ Glance at the screenshots below. You see that the landing page shows six films a
 
 ## Create the landing page
 - It should have a list of days at the top
-- Add six films with brief details about each film. Remember, this is contrived data and they do not need to be laid out side-by-side yet.
+- Add six films with brief details about each film. Remember, this is contrived data. Just hardcode something.
 - Add an instance of `<ShowingTimes>` under each film.
-
 ![Landing page screenshot](../assets/LandingPage.png)
+
 ## Make the Film details page
 - This is where the user will eventually navigate to for the full details of the film.
 - Don't forget to use the `<ShowingTimes>` component you created.
