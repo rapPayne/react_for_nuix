@@ -22,7 +22,8 @@ To test the rest of these, you'll manually place the component in App.tsx betwee
 ## Make ShowingTimes.tsx
 Glance at the screenshots below. You see that the landing page shows six films and under each film you see the showing times. Also these showing times are displayed on the film details page. We're going to take advantage of reusability by creating a component called ShowingTimes.tsx.
 - Create the component.
-- Have it render a list of showing times.
+- Have it receive props for the filmId and selectedDate.
+- Have it render a list of about six showing times.
 
 ## Create the landing page
 - It should have a list of days at the top
