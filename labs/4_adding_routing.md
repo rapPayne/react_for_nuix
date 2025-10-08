@@ -27,13 +27,13 @@ Feel free to look back at the chapter notes or look online for the low-level ins
 - Add the folders and files needed for the baseline routing (hint: __root.tsx, index.tsx)
 - Move the page-level components into the routes folder. (hint: For easier debugging, do this one-by-one and test each rather than moving them all in.)
 
-## Using Link
+## Using `<Link>`
 - Edit LandingPage.tsx. The film briefs should be links to /films/:filmId where :filmId is the actual ID of the film.
 - Edit ShowingTimes.tsx. The showing times should be links to /pick-seats/:showingId where :showingId is the actual ID of the showing.
 
 ## Route parameters
-- Film details should be at /films/:filmId. Make sure that the FilmDetails component reads the filmId from the route parameters and fetches the film details accordingly.
-- PickSeats should be at /pick-seats/:showingId. Make sure that the PickSeats component reads the showingId from the route parameters and fetches the showing details accordingly.
+- Film details should be at "/films/:filmId". Make sure that the FilmDetails component reads the filmId from the route parameters and fetches the film details accordingly.
+- PickSeats should be at "/pick-seats/:showingId". Make sure that the PickSeats component reads the showingId from the route parameters and fetches the showing details accordingly.
 
 ## Pushing to a route
 When the user clicks "Check out" in PickSeats, we need to push to the /checkout route.
