@@ -30,7 +30,7 @@ Now let's turn to decomposing components ...
 That `<section>` where you're displaying the days of the week -- that should be broken into its own component called DatePicker. 
 - Create DatePicker.tsx
 - In it, display the days of the week as you did before.
-- When the user selects a day, set the showing date selected by the user into the global data store (hint: use Zustand)
+- When the user selects a day, set the showing date selected by the user into App's data store.
 - Note that when done right, this should cause the ShowingTimes instances to re-render because they use the selected date. Make sure you test this.
 
 ## Decomposing FilmBrief
